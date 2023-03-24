@@ -140,11 +140,42 @@
     }
 }
 
-.contact p {
+.contact i {
   color: #64ffda;
+  text-decoration: none;
+  font-size: 5vh;
+}
+
+.contact p {
   position: relative;
   text-align: right;
   bottom: 5vh;
-  text-decoration: none;
   font-size: 5vh;
+}
+
+.dreamer a {
+  text-decoration: none;
+  color: #FFC65A;
+}
+
+.costumizer a {
+  text-decoration: none;
+  color: #FFC65A;
+}
+
+.navbar {
+  background-color: #0a192f;
+}
+
+.nav-item {
+  color: #64ffda;
+  font-family: 'Source Code Pro', monospace;
+}
+.nav-link {
+  text-decoration: none;
+  color: #64ffda;
+  &:hover {
+    transition-duration: 200ms;
+    color: #FFC65A;
+  }
 }
