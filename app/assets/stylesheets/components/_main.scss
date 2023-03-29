@@ -39,16 +39,6 @@
 }
 }
 
-.projects {
-  &:hover {
-    transition-duration: 300ms;
-    h3 {
-        color: #FFC65A;
-  }
-  border: thick double #FFC65A;
-  border-radius: 50px;
-}
-}
 
 .contact {
   &:hover {
@@ -175,5 +165,35 @@
   &:hover {
     transition-duration: 200ms;
     color: #FFC65A;
+  }
+}
+
+.cv {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    transition-duration: 200ms;
+    color: white;
+  }
+}
+
+.skills {
+  text-align:left;
+  font-size: large;
+  &:hover {
+    transition-duration: 200ms;
+    color:#64ffda;
+  }
+}
+
+#scrollspyHeading3 {
+  text-align: right;
+}
+
+.git {
+  color: #64ffda;
+  &:hover {
+    transition-duration: 200ms;
+    color:#FFC65A;
   }
 }
