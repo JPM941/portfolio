@@ -10,7 +10,7 @@
 }
 
 .main h2 {
-  font-size: 6vh;
+  font-size: 4vh;
   color: white;
   font-family: 'Source Code Pro', monospace;
 }
@@ -46,8 +46,6 @@
     h3 {
         color: #FFC65A;
   }
-  border: thick double #FFC65A;
-  border-radius: 50px;
 }
 }
 
@@ -151,6 +149,11 @@
   color: #FFC65A;
 }
 
+.birthday a {
+  text-decoration: none;
+  color: #FFC65A;
+}
+
 .navbar {
   background-color: #0a192f;
 }
@@ -196,4 +199,43 @@
     transition-duration: 200ms;
     color:#FFC65A;
   }
+}
+
+.birthday {
+  &:hover {
+    transition-duration: 300ms;
+    .birthday, h4 {
+      color: #64ffda;
+    }
+    .image-birthday {
+      box-shadow: #64ffda 0px 0px 0px 2px inset, #0a192f 10px -10px 0px -3px, #FFC65A 10px -10px, #0a192f 20px -20px 0px -3px, #FFC65A 20px -20px, #0a192f 30px -30px 0px -3px, #FFC65A 30px -30px, #0a192f 40px -40px 0px -3px, #FFC65A 40px -40px;
+    transition-duration: 300ms;
+    }
+  }
+  padding-bottom: 5vh;
+}
+
+.image-birthday {
+  position:relative;
+  left: 15vh;
+  height: 30vh;
+  width: 30vh;
+  border: #FFC65A;
+  border-radius: 10%;
+  background-size: cover;
+  box-shadow: #64ffda 0px 0px 0px 2px inset;
+  background-image: url("https://res.cloudinary.com/dvedgufo1/image/upload/v1690325226/bday_logo_crswub.jpg");
+}
+
+.front {
+  text-align: center;
+  border:solid #64ffda;
+  border-radius: 10px;
+  color: #64ffda;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.front h3 {
+  font-family: 'Source Code Pro', monospace;
+  margin-bottom: 5vh;
 }
