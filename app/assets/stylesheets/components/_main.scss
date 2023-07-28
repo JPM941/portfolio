@@ -40,14 +40,6 @@
 }
 
 
-.contact {
-  &:hover {
-    transition-duration: 300ms;
-    h3 {
-        color: #FFC65A;
-  }
-}
-}
 
 .intro button {
   text-align: right;
@@ -119,23 +111,15 @@
     }
 }
 
-.contact, h5 {
-  color: #64ffda;
-  &:hover {
-    transition-duration: 300ms;
-    color: #FFC65A;
-    font-size: 3vh;
-    }
-}
-
-.contact i {
-  color: #64ffda;
-  text-decoration: none;
-  font-size: 5vh;
-}
 
 .contact p {
-  padding: 2vh;
+  font-size: 3vh;
+  color: #64ffda;
+  margin-top: 3vh;
+  &:hover {
+    transition-duration: 200ms;
+    color: #FFC65A;
+    }
 
 }
 
